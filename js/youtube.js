@@ -15,11 +15,11 @@
       function onYouTubeIframeAPIReady() {
         // <div id="player"></div>
         new YT.Player('player', {
-          videoId: 'B8VR5mQcgjI', // 최초 재생할 유튜브 영상 ID
+          videoId: 'Oeda7KVkFog', // 최초 재생할 유튜브 영상 ID
           playerVars: {
             autoplay: true, // 자동 재생 유무
             loop: true, // 반복 재생 유무
-            playlist: 'B8VR5mQcgjI' // 반복 재생할 유튜브 영상 ID 목록
+            playlist: 'Oeda7KVkFog' // 반복 재생할 유튜브 영상 ID 목록
           },
           events: {
             onReady: function (event) {
